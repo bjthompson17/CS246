@@ -1,4 +1,4 @@
 fn main() {
-    let className = "CS246";
+na    let class_name = "CS246";
     println!("Hello {} World!",className);
 }
