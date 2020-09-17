@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello World!")
+    let className = "CS246";
+    println!("Hello {} World!",className);
 }
