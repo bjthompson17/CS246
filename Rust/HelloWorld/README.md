@@ -1,8 +1,8 @@
 # Overview
-This program is a basic Hello World program written in Rust. The purpose is for me to learn the basics of syntax and terminal output in Rust. I recomend "Tutorials Point" and "Rust by Example."
+This program is a basic Hello World program written in Rust. The purpose is for me to learn the basics of syntax and terminal output in Rust. 
 # Environment Setup
 ## The Rust Language
-I used Rust to program this simple hello world program. There are a number of useful websites to learn the language, which will be listed at the bottom of this file under "Useful Sites"
+I used Rust to program this simple hello world program. There are a number of useful websites to learn the language, which will be listed at the bottom of this file under "Useful Sites." I recomend "Tutorials Point" and "Rust by Example."
 ## The Rust Compiler
 Follow the install instructions on the [Rust language website](https://www.rust-lang.org/tools/install) for you're operating system. If you do not know wheather you're running a 32-bit or a 64-bit system, follow the instructions below to find out. Another great instruction recource is [Tutorials Point](https://www.tutorialspoint.com/rust/rust_environment_setup.htm). This gives a detailed walkthrough on setting up the Rust commandline environment.
 ### Windows
