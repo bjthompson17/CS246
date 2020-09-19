@@ -25,7 +25,7 @@ I've used Visual Studio Code for many projects and it has always been a favorite
 ---
 VS Code is incredibly versitle with the ability to download new extensions to work with any language or add new capabilities to your environment. I'll go ahead and recommend some extensions for working with Rust.
 - To get started installing extensions, click on the extensions icon on the left side of the screen.
-![](.img/VSCode_Extensions_1.png)
+![](.img/VSCode_Extensions_1.PNG)
 - I recommend getting "Beautify" by HookyQR, and "Rust" by The Rust Programming Language
 - Once you click on an extension, it will take you to the extension's page where there should be a green "Install" button. Click it. (You can also click the install in the side window too)
 ![](.img/VSCode_Extensions_2.png)
