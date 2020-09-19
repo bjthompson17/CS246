@@ -25,10 +25,10 @@ I've used Visual Studio Code for many projects and it has always been a favorite
 ---
 VS Code is incredibly versitle with the ability to download new extensions to work with any language or add new capabilities to your environment. I'll go ahead and recommend some extensions for working with Rust.
 - To get started installing extensions, click on the extensions icon on the left side of the screen.
-![](.img\VSCode_Extensions_1.png)
+![](.img/VSCode_Extensions_1.png)
 - I recommend getting "Beautify" by HookyQR, and "Rust" by The Rust Programming Language
 - Once you click on an extension, it will take you to the extension's page where there should be a green "Install" button. Click it. (You can also click the install in the side window too)
-![](.img\VSCode_Extensions_2.png)
+![](.img/VSCode_Extensions_2.png)
 - When the extension has installed, you'll need to reload the window for it to have any effect. VS Code will notify you of this under the extensions section. Simply clear the extension search bar and you should see a blue "reload" button next to your new extension. Click it and the window will reload. Another way to reload the window is to use the command pallette (ctrl + shift + P) and type "reload". Click "Developer: Reload Window"
 
 # Compiling with Rust
@@ -42,7 +42,7 @@ The output should consist of a ".exe" file and a ".pdb" file. Run the ".exe" fil
 
 
 # Hello World in Action!
-![Image not found! Oh well. The output of this programs simply says "Hello CS246 World!"](.img\HelloWorldInAction.png)
+![Image not found! Oh well. The output of this programs simply says "Hello CS246 World!"](.img/HelloWorldInAction.png)
 
 # Useful sites
 - [Rust Reference](https://doc.rust-lang.org/reference/index.html)
