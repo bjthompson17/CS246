@@ -35,7 +35,7 @@ I used VS Code as an IDE for this program. It integrates fully with Cargo via th
 - VS Code is now ready for Rust!
 ---
 # The Program in Action
-![](.img\action.gif)
+![](.img/action.gif)
 
 ---
 # Known Issues
