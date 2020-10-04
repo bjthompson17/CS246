@@ -49,20 +49,23 @@ macro_rules! input {
 fn main() {
     let mut rand = my_rand::Generator::new();
     let number = rand.int(1,100);
-    let mut tries = 1;
     let mut guess:i32 = -1;
+    let mut guesses:Vec<i32> = Vec::new();
     println!("I'm thinking of a number between 1 and 100. How many tries will it take you to guess it?");
     while guess != number {
-        if guess != -1 {
+        guess = input!("Try number {}: ",(guesses.len() + 1)).trim().parse::<i32>().unwrap();
+        if guesses.iter().find(|&&x| x == guess) == None{
+            guesses.push(guess);
             if guess > number {
                 println!("Too high.")
             } else {
                 println!("Too low.")
             }
-            tries += 1;
+        } else {
+            println!("You've already guess this number. It doesn't count")
         }
-        guess = input!("Try number {}: ",tries).trim().parse::<i32>().unwrap();
     }
+    let tries = guesses.len();
     if tries > 8 {
         println!("You need to work on your guessing skills. It took you {} tries.", tries);
     } else if tries > 4 {
