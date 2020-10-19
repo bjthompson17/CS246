@@ -32,6 +32,10 @@ There aren't many extensions you'll need for this setup. Just be sure to have VS
 Unity is now ready to use with Visual Studio Code!
 
 ---
+# The Game In Action
+![](.img/In_Action.gif)
+
+---
 # Parts of Unity Used
 For this project, I decided to focus on the 2D engine in Unity, mainly because I have plans for future 2D games. In my adventures with this platform, I ended up using a number of different tools provided with the 2D engine. Below is a list of systems that I used:
 - Tilemaps: Used to create maps with ease using a tiled grid. Can be Square, Isometric, or Hexagonal.
@@ -40,6 +44,7 @@ For this project, I decided to focus on the 2D engine in Unity, mainly because I
 - UnityEditor API: Used to implement custom functionality of tools in the Unity Editor itself through scripts. Really neat. Specifically, I made a tool to paint Unity Prefabs (Premade game objects) onto a tilemap. 
 - Gizmos: A must have, easy to use debug feature, esspecialy when I need to visibly see range values of scripted objects.
 - Audio: It was super easy to add sounds to the game with Unity's AudioSource component.
+- Animator: Animation is absolutly essential to a remotly satisfying game. Unity's animator is pretty intuitive, similar to the animator in Blender, but with an added state machine controller to control multiple animations with game logic.
 - Components: Unity's modular component system makes things really easy to work with and understand. Everything in a Scene is a GameObject. A GameObject has a transform to define position, rotation, and scale and can have any number of Components attached. For example, a Sprite Renderer component, which renders a defined sprite to the screen at the GameObject's transform. Scripts can be added as Components as well in the form of Monobehaviour classes.
 
 # Useful Sites
